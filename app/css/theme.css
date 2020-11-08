@@ -1,0 +1,333 @@
+/* Global CSS changes */
+.error {
+	color: #f00;
+}
+.bg-white {
+	background-color: #fff;
+}
+.bg-lightgray {
+	background-color: #F5F5F5;
+}
+.bg-lightgray.dk {
+	background-color: #E4EAEC;
+}
+.bg-lightgray.lt {
+	background-color: #FDFDFD;
+}
+.bg-blue {
+	background-color: #2074E3;
+}
+.bg-darkgray {
+	background-color: #555;
+}
+.bg-gray {
+	background-color: #ededed;
+}
+.lightgray {
+	color: #F5F5F5;
+}
+.darkgray {
+	color: #555;
+}
+a.lightgray:visited {
+	color: #F5F5F5;
+}
+a.lightgray:hover {
+	color: #ddd;
+}
+a.lightgray:active {
+	color: #ddd;
+}
+.scroll {
+	overflow: scroll;
+}
+/* End global CSS changes */
+
+.navbar .navbarImage {
+	padding: 0px;
+}
+
+.navbar-divider {
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left: 1px solid #ccc;
+}
+
+.navbar .navbar-toggle {
+	margin-right: 0px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: #555;
+}
+
+.nav-dropdown-narrow {
+	width: 300px;
+}
+
+.nav-dropdown {
+	width: 100%;
+}
+
+@media (min-width: 769px) {
+	.nav-dropdown {
+		width: 400px;
+	}
+}
+
+.brand {
+	width: 30px;
+	height: 30px;
+}
+
+i.fa-question {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #555;
+  border-radius: 15px !important;
+  text-align: center;
+  padding-right: 0px;
+  padding-top: 4px;
+	behavior: url(/js/PIE.htc);
+}
+
+.navbar .navbar-nav>li>a {
+	font-weight: 200;
+	font-size: 16pt;
+}
+/* End navbar */
+
+/* Menu */
+.fa-menu {
+	padding-right: 0.5em;
+}
+
+.bm-menu>li>a {
+	font-size: 14px;
+	padding: 10px 20px;
+	font-weight: 400;
+	color: #555;
+	outline: none;
+}
+
+.bm-menu>li>a>i {
+	margin-right: 10px;
+}
+
+.bm-menu>li>ul {
+	display: none;
+}
+
+.bm-menu>.active>ul {
+	display: block;
+}
+
+.bm-menu>li>span {
+	font-size: 10px;
+	font-weight: 200;
+}
+
+.bm-sub-menu {
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #fff;
+	background-color: #ddd;
+}
+
+.bm-sub-menu>li>a {
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px;
+/*
+	padding-left: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+*/
+	outline: none;
+}
+.bm-sub-menu>li>a:hover, .bm-sub-menu>li>a:visited {
+	background-color: #ddd;
+}
+/* End menu */
+
+/* Element styles */
+h3, h4 {
+	margin: 0px;
+}
+
+#bm-title a, #bm-sub-title a {
+  font-weight: 400;
+}
+
+#bm-title a[disabled], #bm-secondary-title a[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: .65;
+}
+
+#bm-title label {
+	font-size: 12pt;
+	font-weight: 400;
+	padding-right: 20px;
+}
+.actions {
+	margin-top: 10px;
+}
+
+.actions>a {
+	margin-right: 10px;
+}
+
+a.action[disabled] {
+	cursor: not-allowed;
+	pointer-events: none;
+	opacity: .65;
+}
+
+#bm-title .action {
+	padding-left: 10px;
+}
+
+.action-lg {
+  font-size: 18pt;
+}
+
+.action-md {
+  font-size: 16pt;
+}
+
+.action-sm {
+  font-size: 12pt;
+}
+
+.action-danger {
+  font-weight: 200 !important;
+  color: #f00 !important;
+}
+
+.popover {
+	font-size: 12pt;
+}
+/* End element style */
+
+@media(min-width: 769px) {
+	/* View details styles */
+	.bm-panel-header {
+		text-align:right;
+	}
+
+/*
+	.bm-panel-body, .bm-panel-actions {
+		padding-top: 5px;
+	}
+*/
+	/* End view details styles */
+}
+
+/* Table style */
+.table>tbody>tr>td {
+	border-top: 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.table .borderless {
+	border-top: none;
+	border-bottom: none;
+}
+
+.table>thead {
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #ddd;
+}
+
+.table>thead>tr {
+	height: 45px;
+}
+
+.table>thead>tr>td {
+	vertical-align: middle;
+	font-size: 12pt;
+}
+
+.table .start  {
+	border-left: 1px solid #ddd;
+}
+
+.table .end {
+	border-right: 1px solid #ddd;
+}
+
+.table .last {
+	border-bottom: 1px solid #ddd;
+}
+/* End table style */
+
+/* Centered title text */
+.nothing {
+	text-align: center;
+}
+
+.vertical-center-row {
+	vertical-align: middle;
+}
+
+.nothing p {
+	font-size: 18pt;
+	text-align: center;
+	font-weight: 200;
+}
+
+.feature-logo {
+  text-align: center;
+	margin-bottom: 15px;
+	margin-top: 50px;
+}
+
+.fa-feature {
+	font-size: 96pt;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	color: #555;
+}
+
+.fa-overlay {
+  font-size: 60% !important;
+  position: absolute;
+  bottom:-10px;
+  right:-10px;
+}
+/* End centered title text */
+
+/* View details styles */
+.bm-panel {
+	margin-top: 30px;
+}
+
+.bm-panel-header h3, .bm-panel-header h5 {
+	font-weight: 300;
+}
+
+.bm-panel-body, .bm-subpanel-body {
+	border-bottom: 1px solid #ddd;
+}
+
+.bm-panel-actions a {
+	display: block;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+/* End view details styles */
+
+/* Card styles */
+.table-item a {
+	display: block;
+	text-decoration: none;
+	outline: none;
+}
+
+.table-item a:hover {
+	color: #555;
+	background-color: #fbfbfb;
+}
+/* End card styles */
