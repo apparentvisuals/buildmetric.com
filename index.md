@@ -1,10 +1,7 @@
 ---
 home: true
 heroImage: '/img/logo-small.png'
-heroText: 'Buildmetric'
 tagline: 'A new exprience is coming soon.'
+actionText: 'Customer Login'
+actionLink: 'https://inspect.buildmetric.com'
 ---
-
-<p style="text-align: center;">
-  Existing customers <a href="https://inspect.buildmetric.com" target="_blank">Login Here</a>
-</p>
